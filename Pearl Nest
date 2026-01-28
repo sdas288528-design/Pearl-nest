@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pearl Nest Homestay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+}
+header h1 {
+  font-size: 36px;
+  letter-spacing: 1.2px;
+}
+header p {
+  font-size: 18px;
+}
+.btn {
+  margin: 10px 5px;
+  padding: 14px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.btn-call { background: #27ae60; }
+.btn-whatsapp { background: #25D366; }
+section {
+  padding: 40px 20px;
+  background: white;
+  margin: 10px 0;
+}
+h2 { color: #2c3e50; }
+.gallery img {
+  width: 32%;
+  margin: 1%;
+  border-radius: 6px;
+}
+iframe {
+  width: 100%; 
+  height: 350px; 
+  border: none;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2c3e50;
+  color: white;
+}
+@media (max-width:768px){
+  .gallery img { width: 48%; }
+}
+@media (max-width:480px){
+  .gallery img { width: 98%; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>Pearl Nest</h1>
+  <p>Stay close to nature, stay in peace</p>
+  <button class="btn btn-call" onclick="window.location.href='tel:9933288529'">📞 Call Now</button>
+  <button class="btn btn-whatsapp" onclick="window.location.href='https://wa.me/919474298840'">💬 WhatsApp Us</button>
+</header>
+
+<!-- ===== ABOUT ===== -->
+<section>
+  <h2>About Pearl Nest</h2>
+  <p>
+    Welcome to <strong>Pearl Nest Homestay</strong> — your peaceful retreat in 
+    the heart of nature at <strong>Ramnagar, Shaheed Dweep, South Andaman</strong>. 
+    Enjoy clean rooms, friendly local vibes, lush surroundings & stargazing nights 
+    that you will never forget.
+  </p>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="IMG1" alt="Homestay view">
+    <img src="IMG2" alt="Surroundings">
+    <img src="IMG3" alt="Comfortable room">
+  </div>
+</section>
+
+<!-- ===== Stargazing ===== -->
+<section>
+  <h2>🌌 Stargazing Experience</h2>
+  <p>
+    At Pearl Nest, enjoy magical star-filled nights away from city lights. 
+    Perfect for romantic evenings, nature lovers, and peaceful stays.
+  </p>
+</section>
+
+<!-- ===== Location ===== -->
+<section>
+  <h2>📍 Location</h2>
+  <iframe src="https://maps.app.goo.gl/vmfT1xfapSpcfGSU9" allowfullscreen></iframe>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section>
+  <h2>⭐ Guest Reviews</h2>
+  <p>“Peaceful stay with friendly hosts.” — A. Sharma</p>
+  <p>“Beautiful evenings & comfortable room.” — M. Singh</p>
+  <p>“Perfect getaway in a natural setting.” — L. Das</p>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  © 2026 Pearl Nest | Call: +91 9933288529 | WhatsApp: +91 9474298840
+</footer>
+
+</body>
+</html>
